@@ -56,7 +56,7 @@ const api_key = "YOUR_API_KEY_HERE";
 
 ## 📁 Project Structure
 
-   ClimaCast/
+   ClimaCast
 ├── README.md
 ├── index.html
 ├── style.css
