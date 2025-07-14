@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>ClimaCast</title>
+        <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet"/>
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+        <div class="header">
+            <h2>ClimaCast</h2>
+            <div class="weather-input">
+                <input type="text" name="city" id="city_input" placeholder="Enter city name"/>
+                <button type="button" id="searchBtn">
+                <i class="fa-regular fa-search"></i> Search
+                </button>
+                <button type="button" id="locationBtn">
+                <i class="bx bx-target-lock"></i> Present Location
+                </button>
+                </div>
+            </div>
+
+            <div class="weather-data">
+              <div class="weather-left">
+                <div class="card"></div>
+                    <div class="card">
+                      <h2>5 Days Forecast</h2>
+                      <div class="day-forecast"></div>
+                </div>
+            </div>
+
+            <div class="weather-right">
+                <h2>Today's Highlights</h2>
+                <div class="highlights">
+                    <div class="card"></div>
+                      <div class="card"></div>
+                      <div class="card"><div class="card-head"><p>Humidity</p></div><div class="card-item"><i class="fa-light fa-droplet fa-2x"></i><h2 id="humidityVal">____%</h2></div></div>
+                      <div class="card"><div class="card-head"><p>Pressure</p></div><div class="card-item"><i class="fa-light fa-compass fa-2x"></i><h2 id="pressureVal">___hPa</h2></div></div>
+                      <div class="card"><div class="card-head"><p>Visibility</p></div><div class="card-item"><i class="fa-light fa-eye fa-2x"></i><h2 id="visibilityVal">___km</h2></div></div>
+                      <div class="card"><div class="card-head"><p>Wind Speed</p></div><div class="card-item"><i class="fa-light fa-location-narrow fa-2x"></i><h2 id="windSpeedVal">___m/s</h2></div></div>
+                      <div class="card"><div class="card-head"><p>Feels Like</p></div><div class="card-item"><i class="fa-light fa-temperature-list fa-2x"></i><h2 id="feelsVal">___°C</h2></div></div>
+                    </div>
+
+                    <h2>Today at</h2>
+                    <div class="hourly-forecast"></div>
+                </div>
+             </div>
+        </div>
+        <script src="https://momentjs.com/downloads/moment.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
