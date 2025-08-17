@@ -18,8 +18,7 @@ ClimaCast is a modern weather dashboard that provides real-time weather informat
 
 ## 🖥️ Live Demo
 
-> Coming Soon
-> You can host this on GitHub Pages or Netlify to view it live.
+> https://clima-cast-iota.vercel.app/
 
 ---
 ## 🔧 Tech Stack
